@@ -2,7 +2,7 @@
 
 userid=$(id -u)
 logfilepath=/home/ec2-user/shell_logs
-logdetails="logfilepath/$0.log"
+logdetails="$logfilepath/$0.log"
 
 if [ $userid -ne 0 ]; then
  echo "please login with root"
