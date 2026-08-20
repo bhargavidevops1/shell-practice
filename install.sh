@@ -12,6 +12,7 @@ if [ $1 -ne 0 ]; then
 echo " $2 installation failed"
 else
 echo " $2 installation successful"
+fi
 }
 
 dnf list installed mysql -y
