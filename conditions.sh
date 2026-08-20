@@ -1,6 +1,6 @@
 #!/bin/bash
 number = $1
-if [$number -ge 20];  then 
+if [ $number -ge 20 ];  then 
 echo " number is greater than equal to  "
 echo "number is less than 20"
 fi
