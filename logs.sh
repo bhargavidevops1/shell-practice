@@ -17,7 +17,7 @@ echo " $2 installation successful"
 fi
 }
 
-dnf list installed mysql &>> $logdetails 
+dnf list installed mysql -y &>> $logdetails 
 
 if [ $? -eq 0 ]; then
 echo "aleady installed"
